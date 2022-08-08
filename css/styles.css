@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  
+  text-align: right;
+  height: 70px;
+  border: none;
+  padding: 25px;
+}
+nav a {
+  margin-left: 35px;
+  text-decoration: none;
+}
+
+a:link {
+  color: brown;
+
+}
+a:hover {
+  color: teal;
+}
+a:visited {
+  color: purple;
+}
+a:active {
+  color: green;
+}
+div.box {
+  display: inline-block;
+  width: 50px;
+  height: 100px;
+  background-color: rgb(196, 184, 175);
+}
