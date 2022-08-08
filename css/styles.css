@@ -1,17 +1,33 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+}
+
+.left-bio {
+  margin-top: 50px;
+  float: left;
+  width: 45%;
+  padding-left: 50px;
+  text-align: justify;
+  
 }
 
 nav {
-  
+  box-shadow: 1px 2px 9px gray;
   text-align: right;
   height: 70px;
   border: none;
   padding: 25px;
+  margin: 0;
+  
+ 
 }
 nav a {
   margin-left: 35px;
   text-decoration: none;
+}
+#left-logo {
+  float: left;
 }
 
 a:link {
@@ -32,4 +48,14 @@ div.box {
   width: 50px;
   height: 100px;
   background-color: rgb(196, 184, 175);
+}
+
+section h3 {
+  clear: both;
+  text-align: center;
+
+}
+
+.right-pic {
+  float: right;
 }
