@@ -7,40 +7,63 @@
     <meta name="keywords" content="HTML, CSS" />
     <meta name="author" content="Michael Reyes" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Quicksand:wght@300&family=Source+Sans+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico">
+    <script src="https://kit.fontawesome.com/989dcd78de.js" crossorigin="anonymous"></script>
     <title>Home</title>
   </head>
   <body>
     <nav>
-      <a href="index.html"><img id="left-logo" src="img/logo.png" alt="logo" width="100" height="75"></a>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+      <img id="left-logo" src="img/logo.png" alt="logo" width="150">
+      <i class="nav-right fa-solid fa-house"></i><a href="index.html">Home</a>
+      <i class="nav-right fa-solid fa-address-card"></i><a href="about.html">About</a>
+      <i class="nav-right fa-solid fa-envelope"></i><a href="contact.html">Contact</a>
     </nav>
+    
     <main>
       <section>
-        <br>
-        <br>
-        <aside class="right-pic">
-            <img src="img/sanfran.jpg" alt="pic" width="550" height="450">
-          </aside>
-          <br>
-          <br>
+       <div class="abt-img-row">
+        <div class="right-pic">
+            <img src="img/sanfran.jpg" alt="pic" width="600" height="550">
+          </div>
+          
         <div class="left-bio">
-          <h2>My names Michael Reyes and I'm an aspiring front-end Developer</h2>
+          <p></p>Hey! Names Michael Reyes and I'm an aspiring</p>
+          <h2><em>Front-End Developer</em></h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
             reiciendis, obcaecati commodi itaque eum ipsam. Eaque dicta del
           </p>
-        
         </div>
-      </section>
+      </div>
+    </section>
+    
+    <section>
+        <div>
+      <video controls width="415" height="315" muted>
+        <source src="videos/citySF.mp4">
+        Your browser does not support this video file.
+      </video>
+      <p>Video courtesy to: <a href="https://www.pexels.com/@jess-vide/" target="_blank">Jess Loiterton</a></p>
 
-      <section>
+      <audio controls>
+        <source src="audio/groovy.mp3">
+        Your browser does not support this audio file.
+      </audio>
+      <p>Audio courtesy to: <a href="Bensound.com">Bensound</a></p>
+    </div>
+    </section>
+      
+
+      <!-- <section>
+        <div>
         <div class="abt-me">
         <h3>ABOUT ME</h3>
         <h5>What i love about coding and creativity</h4>
           <p>aspire to be a front end developer</p>
-      </section>
+        </div>
       <hr>
       <section>
         <h2>Projects in construction...</h2>
@@ -62,6 +85,6 @@
     <footer>
       <a href="#github">Github *logo*</a>
       <a href="#socials">Socials </a>
-    </footer>
+    </footer> -->
   </body>
 </html>
