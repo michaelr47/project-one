@@ -15,22 +15,24 @@
     <title>Home</title>
   </head>
   <body>
+    <header>
     <nav>
       <img id="left-logo" src="img/logo.png" alt="logo" width="150">
       <i class="nav-right fa-solid fa-house"></i><a href="index.html">Home</a>
-      <i class="nav-right fa-solid fa-address-card"></i><a href="about.html">About</a>
-      <i class="nav-right fa-solid fa-envelope"></i><a href="contact.html">Contact</a>
+      <i class="nav-right fa-solid fa-address-card"></i><a href="#about">About</a>
+      <i class="nav-right fa-solid fa-envelope"></i><a href="#contact">Contact</a>
     </nav>
+  </header>
     
     <main>
-      <section>
+      <section style="height: 700px;">
        <div class="abt-img-row">
         <div class="right-pic">
             <img src="img/sanfran.jpg" alt="pic" width="600" height="550">
           </div>
           
-        <div class="left-bio">
-          <p></p>Hey! Names Michael Reyes and I'm an aspiring</p>
+        <div class="left-asp">
+          <p>Hey! Names Michael Reyes and I'm an aspiring</p>
           <h2><em>Front-End Developer</em></h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
@@ -39,33 +41,17 @@
         </div>
       </div>
     </section>
-    
-    <section>
-        <div>
-      <video controls width="415" height="315" muted>
-        <source src="videos/citySF.mp4">
-        Your browser does not support this video file.
-      </video>
-      <p>Video courtesy to: <a href="https://www.pexels.com/@jess-vide/" target="_blank">Jess Loiterton</a></p>
 
-      <audio controls>
-        <source src="audio/groovy.mp3">
-        Your browser does not support this audio file.
-      </audio>
-      <p>Audio courtesy to: <a href="Bensound.com">Bensound</a></p>
-    </div>
-    </section>
-      
-
-      <!-- <section>
+  <section id="about" style="height: 500px;">
         <div>
         <div class="abt-me">
-        <h3>ABOUT ME</h3>
-        <h5>What i love about coding and creativity</h4>
+        <h3>About Me</h3>
+        <h4>I've been looking into coding for a short few years. From having an I.T. interest after high school, to now wanting to code because, being able to express myself and creative ideas through code is incredible! </h4>
           <p>aspire to be a front end developer</p>
         </div>
+      </section>
       <hr>
-      <section>
+      <section id="projects" style="height: 700px;">
         <h2>Projects in construction...</h2>
         <div class="box"></div>
         <div class="box"></div>
@@ -74,10 +60,27 @@
       </section>
 
       <hr />
-
-      <section>
-        <h3>Contact form:</h3>
-      </section>
+      <section id="contact" style="height: 700px;">
+        <header>
+          <h1>Contact me</h1>
+        </header>
+      <div class="form-container">
+        <form>
+          <label for="fname"></label>
+          <input for="fname" id="fname" name="fname" type="text" placeholder="Your name">
+  
+          <label for="email"></label>
+          <input type="email" for="email" id="email" name="email" placeholder="Email address">
+          <br>
+          <label for="msg"></label>
+          <textarea rows="20" cols="40" placeholder="Your message"></textarea>
+  
+          <br>
+         <input type="submit" id="submit">
+        </form>
+      </div>
+    </section>
+     
 
       <hr />
     </main>
@@ -85,6 +88,6 @@
     <footer>
       <a href="#github">Github *logo*</a>
       <a href="#socials">Socials </a>
-    </footer> -->
+    </footer>
   </body>
 </html>
