@@ -8,27 +8,26 @@ font-family: 'Source Sans Pro', sans-serif; */
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #f9f7f7;
+  /* background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment:fixed; */
+
 }
 /* start of navbar and all selectors */
 
-.left-asp {
-  margin-top: 170px;
-  float: left;
-  width: 45%;
-  padding-left: 50px;
-  text-align: justify;
- 
-  
-}
+
 
 nav {
-  box-shadow: 3px 1px 5px gray;
+  box-shadow: 1px 2px 6px gray;
   text-align: right;
   height: 80px;
   border: none;
   padding: 0 30px 0 0;
-  background: rgb(222, 196, 196);
+  background: blanchedalmond;
+  position: sticky;
+  top: 0;
 }
 nav a {
   margin-left: 40px;
@@ -66,6 +65,22 @@ a:active {
 }
 /* end of navbar styling */
 
+.left-asp {
+  padding-top: 200px;
+  float: left;
+  width: 45%;
+  padding-left: 50px;
+  text-align: justify;
+
+}
+
+.left-asp h2 {
+  letter-spacing: 5px;
+}
+.abt-img-row {
+  width: 100%;
+}
+
 div.box {
   display: inline-block;
   width: 50px;
@@ -79,21 +94,31 @@ p {
   font-family: 'Quicksand', sans-serif;
 }
 
-.abt-me {
+ .abt-me {
   clear: both;
-}
+  padding: 100px 70px;
+  margin: 10px;
+  width: 50%;
+
+ 
+  
+
+} 
 
 section h3 {
   clear: both;
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
-
+  font-family: 'Quicksand', sans-serif;
+  
 }
 
 .right-pic {
-  border-radius: 50px;
   float: right;
-  padding: 40px;
+  padding: 30px;
+  
+}
+section img {
+  border-radius: 300px;
 }
 
 .form-container {
@@ -108,5 +133,12 @@ section h3 {
 
 input[type=text] {
  margin: 40px 10px 20px 0;
+}
+
+.fter-cont {
+  border-top: 1px solid black;
+  background-color: blanchedalmond;
+  height: 100px;
+
 }
 
