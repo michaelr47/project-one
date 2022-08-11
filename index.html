@@ -7,92 +7,128 @@
     <meta name="keywords" content="HTML, CSS" />
     <meta name="author" content="Michael Reyes" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Quicksand:wght@300&family=Source+Sans+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
-    <link rel="icon" href="img/favicon.ico">
-    <script src="https://kit.fontawesome.com/989dcd78de.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Quicksand:wght@300&family=Source+Sans+Pro:ital,wght@1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/989dcd78de.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Home</title>
   </head>
   <body>
-    <header>
-    <nav>
-      <img id="left-logo" src="img/logo.png" alt="logo" width="150">
-      <i class="nav-right fa-solid fa-house"></i><a href="index.html">Home</a>
-      <i class="nav-right fa-solid fa-address-card"></i><a href="#about">About</a>
-      <i class="nav-right fa-solid fa-envelope"></i><a href="#contact">Contact</a>
-    </nav>
-  </header>
-    
+    <header id="top">
+      <nav>
+        <img id="left-logo" src="img/logo.png" alt="logo" width="150" />
+        <i class="nav-right fa-solid fa-house"></i
+        ><a href="index.html">Home</a>
+        <i class="nav-right fa-solid fa-address-card"></i
+        ><a href="#about">About</a>
+        <i class="nav-right fa-solid fa-envelope"></i
+        ><a href="#contact">Contact</a>
+      </nav>
+    </header>
+
     <main>
-      <section style="height: 700px;">
-       <div class="abt-img-row">
-        <div class="right-pic">
-            <img src="img/sanfran.jpg" alt="pic" width="650" height="600">
+      <section id="home" class="section-height">
+        <div class="abt-img-row">
+          <div class="right-pic">
+            <img src="img/sanfran.jpg" alt="pic" width="700" height="650" />
           </div>
-          
-        <div class="left-asp">
-          <p>Hey! Names Michael Reyes and I'm an aspiring</p>
-          <h2>Front-End Developer</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-            reiciendis, obcaecati commodi itaque eum ipsam. Eaque dicta del
-          </p>
-        </div>
-      </div>
-    </section>
 
-  <section id="about" style="height: 600px;">
-        <div class="abt-me">
-        <h3>About Me</h3>
-        <p>I've been looking into coding for a short few years. From having an I.T. interest after high school, to now wanting to code because, being able to express myself and creative ideas through code is incredible!</p>
-          <p>aspire to be a front end developer</p>
-        </div>
-      </section>
-      <hr>
-      <section id="projects" style="height: 500px;">
-        <h2>Projects in construction...</h2>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+          <div class="left-asp">
+            <p>Welcome! Names Michael Reyes and I'm an aspiring</p>
+            <h1 class="asp-title">Front-End Developer</h1>
+            <p>
+              Currently in training to learn HTML and CSS, and will soon touch
+              on JavaScript!
+            </p>
+          </div>
         </div>
       </section>
 
-      <hr />
-      <section id="contact" style="height: 500px;">
+      <section id="about" class="section-height">
+        <div class="abt-cont">
+          <div class="abt-me">
+            <h3>About Me</h3>
+            <p>
+              I've been looking into coding for a short few years. From having
+              an I.T. interest after high school, to now wanting to code
+              because, being able to express myself and creative ideas through
+              code is incredible!
+            </p>
+          </div>
+
+          <div class="status-bar">
+            <h3>My Skills</h3>
+            <p>HTML</p>
+            <div class="bar">
+              <div class="skill html">25%</div>
+            </div>
+
+            <p>CSS</p>
+            <div class="bar">
+              <div class="skill css">15%</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section-height">
+        <h2 class="proj-heading">Projects in construction...</h2>
+        <div class="proj-row">
+          <div class="box">
+            <div class="desc-bottom"><p>text</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-height">
         <header>
-          <h1>Contact me</h1>
+          <!-- <h1>Contact me</h1> -->
         </header>
-      <div class="form-container">
-        <form>
-          <label for="fname"></label>
-          <input for="fname" id="fname" name="fname" type="text" placeholder="Your name">
-  
-          <label for="email"></label>
-          <input type="email" for="email" id="email" name="email" placeholder="Email address">
-          <br>
-          <label for="msg"></label>
-          <textarea rows="20" cols="40" placeholder="Your message"></textarea>
-  
-          <br>
-         <input type="submit" id="submit">
-        </form>
-      </div>
-    </section>
-     
+        <div class="form-container">
+          <form>
+            <label for="fname"></label>
+            <input
+              for="fname"
+              id="fname"
+              name="fname"
+              type="text"
+              placeholder="Your name"
+            />
 
-      
+            <label for="email"></label>
+            <input
+              type="email"
+              for="email"
+              id="email"
+              name="email"
+              placeholder="Email address"
+            />
+            <br />
+            <label for="msg"></label>
+            <textarea rows="20" cols="40" placeholder="Your message"></textarea>
+
+            <br />
+            <input type="submit" id="submit" />
+          </form>
+        </div>
+      </section>
     </main>
 
     <footer>
-    
       <section>
-      <div class="fter-cont">
-
-      <a href="#github">Github *logo*</a>
-      <a href="#socials">Socials </a>
-    </div>
-    </section>
+        <div class="fter-cont">
+          <i class="fa-brands fa-github"></i><a href="#github">Github logo</a>
+          <i class="fa-brands fa-linkedin"></i><a href="#socials">LinkedIn</a>
+          <a href="#top">Back to top</a>
+        </div>
+      </section>
     </footer>
   </body>
 </html>
