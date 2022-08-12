@@ -18,14 +18,11 @@
     <!-- navbar begins -->
     <header id="top">
       <nav>
-        <img id="left-logo" src="img/logo.png" alt="logo" width="150" />
+        <img id="left-logo" src="img/logo.png" alt="logo" />
         <a href="index.html">Home<i class="nav-right fa-solid fa-house"></i></a>
-        <a href="#about"
-          >About<i class="nav-right fa-solid fa-address-card"></i
-        ></a>
-        <a href="#contact"
-          >Contact<i class="nav-right fa-solid fa-envelope"></i
-        ></a>
+        <a href="#about">About<i class="nav-right fa-solid fa-address-card"></i></a>
+        <a href="#projects">Projects<i class="nav-right fa-solid fa-folder"></i></a>
+        <a href="#contact">Contact<i class="nav-right fa-solid fa-envelope"></i></a>
       </nav>
     </header>
     <!-- navbar ends here -->
@@ -36,8 +33,8 @@
     <main>
       <section id="home" class="section-height">
         <div class="abt-img-row">
-          <div class="right-pic">
-            <img src="img/sanfran.jpg" alt="pic" width="700" height="650" />
+          <div class="pic-to-right">
+            <img class="pic-radius" src="img/mainpic.JPG" alt="pic of me" width="680" height="620"/>
           </div>
 
           <div class="left-asp">
@@ -47,6 +44,8 @@
               Currently in training to learn HTML and CSS, and will soon touch
               on JavaScript!
             </p>
+            <i class="socials fa-brands fa-github"></i><a href="#github"></a>
+            <i class="socials fa-brands fa-linkedin"></i><a href="#socials"></a>
           </div>
         </div>
       </section>
@@ -60,23 +59,22 @@
           <div class="abt-me">
             <h2>About Me</h2>
             <p>
-              I've been looking into coding for a short few years. From having
-              an I.T. interest after high school, to now wanting to code
-              because, being able to express myself and creative ideas through
-              code is incredible! 
+               From having no direct career path in college and switching majors tons of times, to now wanting to code
+              because of the ability to express myself and make ideas come to life through
+              code is incredible to me! Pivoting from the retail/customer service field to <strong>tech</strong> is something I want to do.
             </p>
           </div>
-
+          <!-- start of status bar to the right -->
           <div class="status-bar">
             <h3>My Skills</h3>
             <p>HTML</p>
             <div class="bar">
-              <div class="skill html">25%</div>
+              <div class="skill html">20%</div>
             </div>
 
-            <p>CSS</p>
+            <p class="pad-top">CSS</p>
             <div class="bar">
-              <div class="skill css">15%</div>
+              <div class="skill css">10%</div>
             </div>
           </div>
         </div>
@@ -134,11 +132,10 @@
 
     <!-- start of footer section -->
     <footer>
-      <section>
+      <section style="height: 80px;">
         <div class="fter-cont">
-          <i class="fa-brands fa-github"></i><a href="#github">Github logo</a>
-          <i class="fa-brands fa-linkedin"></i><a href="#socials">LinkedIn</a>
-          <a href="#top">Back to top</a>
+          <img class="fter-logo" src="img/logo.png" alt="footer-logo">
+          <a href="#top"><i class="fa-solid fa-arrow-up fa-bounce"></i></a> 
         </div>
       </section>
     </footer>

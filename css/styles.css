@@ -1,6 +1,5 @@
 /* font-family: 'Kanit', sans-serif;
 font-family: 'Quicksand', sans-serif;
-font-family: 'Source Sans Pro', sans-serif; */
 
 /*----targeting all elements and universal tag */
 * {
@@ -28,7 +27,7 @@ p {
 }
 
 .section-height {
-  height: 700px;
+  height: 665px;
   /* box-sizing: border-box; */
 }
 
@@ -41,8 +40,8 @@ nav {
   border: none;
   padding: 0 30px 0 0;
   background: #ffebcd;
-  position: sticky;
-  top: 0;
+  /* position: sticky; */
+
 }
 nav a {
   margin-left: 50px;
@@ -52,7 +51,7 @@ nav a {
 
 }
 
-i {
+nav i {
   color: black;
   margin-left: 6px;
 }
@@ -64,6 +63,8 @@ i {
 #left-logo {
   float: left;
   height: 100%;
+ width: 130px;
+ border-radius: 2px;
   
 }
 
@@ -88,7 +89,7 @@ a:active {
 .left-asp {
   padding-top: 265px;
   float: left;
-  width: 45%;
+  width: 43%;
   padding-left: 50px;
   text-align: ;
 }
@@ -96,18 +97,20 @@ a:active {
 
 .asp-title {
   font-family: "Kanit", sans-serif;
-  letter-spacing: 10px;
-  font-size: 35px;
-  color: #d2a262;
+  letter-spacing: 10.5px;
+  font-size: 40px;
+  color: #d4a06cf6;
+  /* color: #d4b382; */
 }
-.right-pic {
+
+.pic-to-right {
   float: right;
-  padding: 30px;
+  padding: 60px 30px;
   
 }
-section img {
-  border-radius: 50%;
-  
+.pic-radius {
+  border-radius: 47.5%;
+  object-fit: cover;
 }
 
 /*end of heading section */
@@ -136,6 +139,9 @@ section img {
   
 }
 
+.pad-top { padding-top: 20px;}
+
+
 .status-bar {
   float: right;
   width: 50%;
@@ -146,6 +152,7 @@ section img {
   text-align: center;
   padding-right: 90px;
 }
+
 .bar {
   background-color: rgb(170, 170, 170);
   width: 80%;
@@ -215,7 +222,7 @@ section img {
 }
 
 input[type="text"] {
-  margin: 40px 10px 20px 0;
+  margin: 40px 20px 20px 0;
 }
 
 input[type="submit"] {
@@ -239,7 +246,31 @@ textarea {
 /* start of footer section */
 
 .fter-cont {
-  border-top: 1px solid black;
+  border-top: none;
   background-color: blanchedalmond;
-  height: 100px;
+  height: 80px;
+  text-align: center;
+}
+.fter-logo {
+  height: 100%;
+  width: 130px;
+  border-radius: 2px;
+}
+
+.fa-arrow-up {
+  float: right;
+  padding: 12px;
+}
+
+.fa-arrow-up:link {
+  color: #74560c;
+}
+.fa-arrow-up:hover {
+  color: rgb(14, 156, 156);
+}
+.fa-arrow-:visited {
+  color: rgb(190, 37, 190);
+}
+.fa-arrow-up:active {
+  color: green;
 }
