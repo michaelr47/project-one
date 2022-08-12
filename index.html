@@ -9,30 +9,30 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Quicksand:wght@300&family=Source+Sans+Pro:ital,wght@1,600&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Quicksand:wght@300&family=Source+Sans+Pro:ital,wght@1,600&display=swap" rel="stylesheet"/>
     <link rel="icon" href="img/favicon.ico" />
-    <script
-      src="https://kit.fontawesome.com/989dcd78de.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/989dcd78de.js" crossorigin="anonymous"></script>
     <title>Home</title>
   </head>
   <body>
+    <!-- navbar begins -->
     <header id="top">
       <nav>
         <img id="left-logo" src="img/logo.png" alt="logo" width="150" />
-        <i class="nav-right fa-solid fa-house"></i
-        ><a href="index.html">Home</a>
-        <i class="nav-right fa-solid fa-address-card"></i
-        ><a href="#about">About</a>
-        <i class="nav-right fa-solid fa-envelope"></i
-        ><a href="#contact">Contact</a>
+        <a href="index.html">Home<i class="nav-right fa-solid fa-house"></i></a>
+        <a href="#about"
+          >About<i class="nav-right fa-solid fa-address-card"></i
+        ></a>
+        <a href="#contact"
+          >Contact<i class="nav-right fa-solid fa-envelope"></i
+        ></a>
       </nav>
     </header>
+    <!-- navbar ends here -->
 
+    <!-- ------------------------ -->
+
+    <!-- main heading starts with small bio and pic-->
     <main>
       <section id="home" class="section-height">
         <div class="abt-img-row">
@@ -50,16 +50,20 @@
           </div>
         </div>
       </section>
+      <!-- main heading ends here-->
 
+      <!-------------------------- -->
+
+      <!-- start of about me section -->
       <section id="about" class="section-height">
         <div class="abt-cont">
           <div class="abt-me">
-            <h3>About Me</h3>
+            <h2>About Me</h2>
             <p>
               I've been looking into coding for a short few years. From having
               an I.T. interest after high school, to now wanting to code
               because, being able to express myself and creative ideas through
-              code is incredible!
+              code is incredible! 
             </p>
           </div>
 
@@ -77,25 +81,32 @@
           </div>
         </div>
       </section>
+      <!-- end of about me section-->
 
+      <!-- ----------------------- -->
+
+      <!-- start of projects section -->
       <section id="projects" class="section-height">
-        <h2 class="proj-heading">Projects in construction...</h2>
+        <h3 class="proj-heading">Projects in construction...</h2>
         <div class="proj-row">
           <div class="box">
             <div class="desc-bottom"><p>text</p></div>
           </div>
         </div>
       </section>
+      <!-- end of projects section -->
 
+      <!-- -------------------------- -->
+
+      <!-- start of contact form -->
       <section id="contact" class="section-height">
         <header>
-          <!-- <h1>Contact me</h1> -->
+          <h3>Contact me</h3>
         </header>
         <div class="form-container">
           <form>
             <label for="fname"></label>
             <input
-              for="fname"
               id="fname"
               name="fname"
               type="text"
@@ -105,7 +116,6 @@
             <label for="email"></label>
             <input
               type="email"
-              for="email"
               id="email"
               name="email"
               placeholder="Email address"
@@ -119,8 +129,10 @@
           </form>
         </div>
       </section>
+      <!-- end of contact section-->
     </main>
 
+    <!-- start of footer section -->
     <footer>
       <section>
         <div class="fter-cont">
@@ -130,5 +142,6 @@
         </div>
       </section>
     </footer>
+    <!-- end of footer section-->
   </body>
 </html>
