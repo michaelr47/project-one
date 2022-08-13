@@ -181,16 +181,26 @@ a:active {
 
 /* start of project section */
 .box {
-  display: inline-block;
-  width: 25%;
-  height: 80%;
+  margin-top: 35px;
+  display: inline-block; 
+  width: 20%;
+  height: 60%;
   background-color: rgb(196, 184, 175);
   text-align: justify;
+  
+}
+.left-box {
+  margin-left: 60px;
+  margin-right: 220px;
+  background-image: url(../img/backgroundprojpic.png);
+  background-size: cover;
+  
 }
 
-.desc-bottom {
-  vertical-align: bottom;
-  height: 1%;
+
+.center-box {
+  margin-right: 220px;
+  
 }
 
 .proj-row {
@@ -202,6 +212,7 @@ a:active {
 }
 
 .proj-heading {
+
 }
 /* end of project section*/
 
