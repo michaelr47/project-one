@@ -91,7 +91,7 @@ a:active {
   float: left;
   width: 43%;
   padding-left: 50px;
-  text-align: ;
+  /* text-align: ;*/
 }
 
 
@@ -216,7 +216,7 @@ a:active {
 
 
 .proj-heading {
-
+font-weight: 900;
 }
 /* end of project section*/
 
@@ -246,10 +246,6 @@ input[type="submit"] {
   border-radius: 5px;
   padding: 5px;
   margin-top: 10px;
-}
-
-input[type="text"]:hover {
-  background-color: ;
 }
 
 textarea {
