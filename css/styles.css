@@ -12,12 +12,13 @@ body {
   background-color: #fbfbfa;
 }
 
-h3, h2 {
+h3, h2{
   letter-spacing: 10px;
   font-size: 20px;
   font-family: "Quicksand", sans-serif;
   text-align: center;
 }
+
 
 
 p {
@@ -61,8 +62,8 @@ nav i {
 }
 
 #left-logo {
-  float: left;
-  height: 100%;
+ float: left;
+ height: 100%;
  width: 130px;
  border-radius: 2px;
   
@@ -189,8 +190,8 @@ a:active {
   display: inline-block;
   margin-top: 35px;  
   width: 45%;
-  /* height: 70%; */
-  background-color: rgb(196, 184, 175);
+  height: 400px; 
+  background-color: #eecbb0;
   /* text-align: justify; */
   border-radius: 5px;
   box-shadow: 2px 3px 3px gray;
@@ -198,17 +199,14 @@ a:active {
 }
 .left-box {
   float: left;
-  margin-left: 60px;
-  background-image: url(../img/backgroundprojpic.png);
-  background-repeat: no-repeat;
-  background-size:contain; 
-  height: 70%;
+  margin-left: 50px;
+  
 }
 .right-box {
-  margin-right: 60px;
+  margin-right: 50px;
   float: right;
-  height: 70%;
 }
+
 
 #projects {
   clear: both;
