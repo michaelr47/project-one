@@ -180,36 +180,40 @@ a:active {
 /*----------------------*/
 
 /* start of project section */
-.box {
-  margin-top: 35px;
-  display: inline-block; 
-  width: 20%;
-  height: 60%;
-  background-color: rgb(196, 184, 175);
-  text-align: justify;
-  
-}
-.left-box {
-  margin-left: 60px;
-  margin-right: 220px;
-  background-image: url(../img/backgroundprojpic.png);
-  background-size: cover;
-  
-}
-
-
-.center-box {
-  margin-right: 220px;
-  
-}
 
 .proj-row {
   height: 100%;
+  width: 100%;
+}
+.box {
+  display: inline-block;
+  margin-top: 35px;  
+  width: 45%;
+  /* height: 70%; */
+  background-color: rgb(196, 184, 175);
+  /* text-align: justify; */
+  border-radius: 5px;
+  box-shadow: 2px 3px 3px gray;
+  
+}
+.left-box {
+  float: left;
+  margin-left: 60px;
+  background-image: url(../img/backgroundprojpic.png);
+  background-repeat: no-repeat;
+  background-size:contain; 
+  height: 70%;
+}
+.right-box {
+  margin-right: 60px;
+  float: right;
+  height: 70%;
 }
 
 #projects {
   clear: both;
 }
+
 
 .proj-heading {
 
@@ -222,6 +226,7 @@ a:active {
 
 .contact {
   height: 100%;
+  /* width: 100%; */
 }
 .form-container {
   background-color: rgb(242, 242, 242);
