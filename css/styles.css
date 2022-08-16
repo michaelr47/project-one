@@ -131,7 +131,13 @@ a:active {
 .pic-to-right {
   float: right;
   padding: 60px 30px;
-  
+}
+
+figcaption p {
+  padding: 10px 0 0 200px;
+  text-transform: capitalize;
+  font-size: 17px !important;
+  /* transform:scale(5deg); */
 }
 .pic-radius {
   border-radius: 47.5%;
