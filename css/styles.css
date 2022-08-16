@@ -37,9 +37,9 @@ nav {
   border: none;
   padding: 0 30px 0 0;
   background: #ffebcd;
-  /* position: sticky; */
 
 }
+
 nav a {
   margin-left: 50px;
   text-decoration: none;
@@ -69,14 +69,9 @@ a:link {
   color: #443614;
 }
 a:hover {
-  color: rgb(14, 156, 156);
+  color: rgb(29, 219, 70);
 }
-a:visited {
-  color: rgb(190, 37, 190);
-}
-a:active {
-  color: green;
-}
+
 /* end of navbar */
 
 /*---------------------*/
@@ -219,6 +214,9 @@ figcaption p {
 /*----------------------*/
 
 /* start of project section */
+.proj-heading {
+  font-weight: 900;
+  }
 
 .proj-row {
   height: 100%;
@@ -240,11 +238,32 @@ figcaption p {
   margin-left: 50px;
   
 }
+
+.btn-code {
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 25px 0 0 250px;
+  height: 45px;
+  width: 150px;
+  background-color: #e8c393;
+  font-family: Quicksand, sans-serif;
+  font-size: 16px;
+}
+
+.btn-code:hover {
+  background-color: tan;
+
+}
+
 .right-box {
   margin-right: 50px;
   float: right;
-  background-color: #cba56da8;
+  background-color: #cba56d69;
   opacity: 0.6;
+}
+.right-box p {
+  /* margin: auto; */
+  padding: 25% 30%;
 }
 
 
@@ -290,6 +309,8 @@ font-weight: 900;
 }
 
 input[type="text"], input[type="email"] {
+  font-family: Quicksand, sans-serif;
+  font-size: 15px;
   border-radius: 5px;
   border: none;
   margin: 15px 0 20px 0;
@@ -298,6 +319,8 @@ input[type="text"], input[type="email"] {
 
 }
 textarea {
+  font-family: Quicksand, sans-serif;
+  font-size: 15px;
   height: 200px;
   width: 90.5%;
   border-radius: 5px;
@@ -306,10 +329,18 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #d0a769;
+  font-family: Quicksand, sans-serif;
+  font-size: 16px;
+  border: .5px solid black;
+  width: 110px;
+  height: 40px;
+  background-color: #e8c393;
   border-radius: 5px;
   padding: 5px;
   margin-top: 10px;
+}
+input[type="submit"]:hover {
+  background-color: tan;
 }
 /* END of contact section */
 
@@ -335,14 +366,8 @@ input[type="submit"] {
 }
 
 .fa-arrow-up:link {
-  color: #74560c;
+  color: #287e30;
 }
 .fa-arrow-up:hover {
   color: rgb(14, 156, 156);
-}
-.fa-arrow-:visited {
-  color: rgb(190, 37, 190);
-}
-.fa-arrow-up:active {
-  color: green;
 }
