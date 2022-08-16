@@ -36,7 +36,7 @@ nav {
   height: 80px;
   border: none;
   padding: 0 30px 0 0;
-  background: #ffebcd;
+  background-color: #edcdaa;
 
 }
 
@@ -44,7 +44,8 @@ nav a {
   margin-left: 50px;
   text-decoration: none;
   font-family: "Quicksand", sans-serif;
-  font-size: 17.5px;
+  font-size: 18px;
+  font-weight: 900;
 
 }
 
@@ -66,10 +67,16 @@ nav i {
 }
 
 a:link {
-  color: #443614;
+  color: #242322;
+}
+a:visited {
+  color: #a71fa7;
 }
 a:hover {
-  color: rgb(29, 219, 70);
+  color: #808080;
+}
+a:active {
+  color: #ffffff;
 }
 
 /* end of navbar */
@@ -91,10 +98,10 @@ a:hover {
   /* text-align: ;*/
 }
 .left-asp span {
-  font-size: 25px;
+  font-size: 28px;
   font-weight: bolder;
   /* font-style: oblique; */
-  text-transform:uppercase;
+  text-transform: uppercase;
   letter-spacing: 2.1px;
 
 }
@@ -125,7 +132,7 @@ a:hover {
 
 .pic-to-right {
   float: right;
-  padding: 60px 30px;
+  padding: 65px 30px;
 }
 
 figcaption p {
@@ -134,9 +141,10 @@ figcaption p {
   font-size: 17px !important;
   /* transform:scale(5deg); */
 }
-.pic-radius {
-  border-radius: 47.5%;
-  object-fit: cover;
+.main-pic {
+  border-radius: 50%;
+  object-fit:cover;
+  box-shadow: 5px 5px 15px grey;
 }
 
 /*end of heading section */
@@ -188,13 +196,13 @@ figcaption p {
 }
 
 .bar {
-  background-color: #626262;
+  background-color: #8f8e8e;
   width: 80%;
   border-radius: 15px;
 }
 
 .skill {
-  background-color: #d0a769;
+  background-color: #d4ac71;
   color: black;
   padding: 1.5%;
   text-align: right;
@@ -236,29 +244,32 @@ figcaption p {
 .left-box {
   float: left;
   margin-left: 50px;
-  
+
+}
+.left-box img, h3 {
+  margin-bottom: 10px;
+  font-family: Quicksand, sans-serif;
+  font-size: 23px;
+  letter-spacing: 5px;
+  text-align: center;
 }
 
 .btn-code {
   border-radius: 5px;
   border: 1px solid black;
-  margin: 25px 0 0 250px;
+  margin: 10px 0 0 250px;
   height: 45px;
   width: 150px;
   background-color: #e8c393;
   font-family: Quicksand, sans-serif;
   font-size: 16px;
 }
-
-.btn-code:hover {
-  background-color: tan;
-
-}
+.btn-code:hover { background-color: tan; }
 
 .right-box {
   margin-right: 50px;
   float: right;
-  background-color: #cba56d69;
+  background-color: #edccaab8;
   opacity: 0.6;
 }
 .right-box p {
@@ -271,9 +282,7 @@ figcaption p {
   clear: both;
 }
 
-.proj-heading {
-font-weight: 900;
-}
+
 /* end of project section*/
 
 /* ----------------------- */
@@ -350,9 +359,10 @@ input[type="submit"]:hover {
 
 .fter-cont {
   border-top: none;
-  background-color: blanchedalmond;
+  background-color: #edcdaa;
   height: 80px;
   text-align: center;
+  
 }
 .fter-logo {
   height: 100%;
