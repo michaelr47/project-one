@@ -8,20 +8,14 @@ font-family: 'Quicksand', sans-serif;
   
 }
 
-body {
-  background-color: #f9f9f9;
-  
-  
-}
+body { background-color: #f9f9f9; }
 
-h3, h2 {
+h2 {
   letter-spacing: 10px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Quicksand", sans-serif;
   text-align: center;
 }
-
-
 
 p {
   font-family: "Quicksand", sans-serif;
@@ -193,13 +187,13 @@ a:active {
 }
 
 .bar {
-  background-color: #4d4c4c;
+  background-color: #626262;
   width: 80%;
   border-radius: 15px;
 }
 
 .skill {
-  background-color: #ecbc8f;
+  background-color: #d0a769;
   color: black;
   padding: 1.5%;
   text-align: right;
@@ -243,7 +237,7 @@ a:active {
 .right-box {
   margin-right: 50px;
   float: right;
-  background-color: #ecbc8f;
+  background-color: #cba56da8;
   opacity: 0.6;
 }
 
@@ -273,7 +267,7 @@ font-weight: 900;
   width: 40%;
 }
 
-.contact-header h2 {
+.contact-header > h2 {
   padding: 15% 25%;
   font-size: 30px;
 }
@@ -290,7 +284,8 @@ font-weight: 900;
 }
 
 input[type="text"], input[type="email"] {
-
+  border-radius: 5px;
+  border: none;
   margin: 15px 0 20px 0;
   width: 45%;
   height: 35px;
@@ -299,11 +294,13 @@ input[type="text"], input[type="email"] {
 textarea {
   height: 200px;
   width: 90.5%;
+  border-radius: 5px;
+  border: none;
   
 }
 
 input[type="submit"] {
-  background-color: #cca878;
+  background-color: #d0a769;
   border-radius: 5px;
   padding: 5px;
   margin-top: 10px;
