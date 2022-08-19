@@ -1,14 +1,16 @@
 /* font-family: 'Kanit', sans-serif;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Quicksand', sans-serif; */
 
 /*----targeting all elements and universal tag */
 * {
   box-sizing: border-box;
   margin: 0;
-  
 }
 
-body { background-color: #f9f9f9; }
+body { 
+  background-color: #f9f9f9;
+  font-family: Quicksand, sans-serif;
+}
 
 h2 {
   letter-spacing: 10px;
@@ -43,7 +45,7 @@ nav {
 nav a {
   margin-left: 50px;
   text-decoration: none;
-  font-family: "Quicksand", sans-serif;
+  /* font-family: "Quicksand", sans-serif; */
   font-size: 18px;
   font-weight: 900;
 
@@ -95,15 +97,13 @@ a:active {
   float: left;
   width: 43%;
   padding-left: 50px;
-  /* text-align: ;*/
 }
+
 .left-asp span {
   font-size: 28px;
   font-weight: bolder;
-  /* font-style: oblique; */
   text-transform: uppercase;
   letter-spacing: 2.1px;
-
 }
 
 .asp-title {
@@ -126,9 +126,7 @@ a:active {
   padding: 15px 5px 5px 5px;
   color: #0B65C2;
 }
-.fa-linkedin:hover, .fa-github:hover {
- opacity: .7;
-}
+.fa-linkedin:hover, .fa-github:hover { opacity: .7; }
 
 .pic-to-right {
   float: right;
@@ -222,9 +220,7 @@ figcaption p {
 /*----------------------*/
 
 /* start of project section */
-.proj-heading {
-  font-weight: 900;
-  }
+.proj-heading { font-weight: 900; }
 
 .proj-row {
   height: 100%;
@@ -236,7 +232,6 @@ figcaption p {
   width: 45%;
   height: 400px; 
   background-color: #eecbb0;
-  /* text-align: justify; */
   border-radius: 5px;
   box-shadow: 2px 3px 3px gray;
   
@@ -248,7 +243,6 @@ figcaption p {
 }
 .left-box img, h3 {
   margin-bottom: 10px;
-  font-family: Quicksand, sans-serif;
   font-size: 23px;
   letter-spacing: 5px;
   text-align: center;
@@ -264,7 +258,7 @@ figcaption p {
   font-family: Quicksand, sans-serif;
   font-size: 16px;
 }
-.btn-code:hover { background-color: tan; }
+.btn-code:hover { background-color: #d2b48c; }
 
 .right-box {
   margin-right: 50px;
@@ -272,17 +266,11 @@ figcaption p {
   background-color: #edccaab8;
   opacity: 0.6;
 }
-.right-box p {
-  /* margin: auto; */
-  padding: 25% 30%;
-}
-
+.right-box p { padding: 25% 34%; }
 
 #projects {
   clear: both;
 }
-
-
 /* end of project section*/
 
 /* ----------------------- */
@@ -302,7 +290,7 @@ figcaption p {
 }
 
 .contact-header > h2 {
-  padding: 15% 25%;
+  padding: 20% 25%;
   font-size: 30px;
 }
 
@@ -322,7 +310,7 @@ input[type="text"], input[type="email"] {
   font-size: 15px;
   border-radius: 5px;
   border: none;
-  margin: 15px 0 20px 0;
+  margin: 15px 0 25px 0;
   width: 45%;
   height: 35px;
 
@@ -349,7 +337,7 @@ input[type="submit"] {
   margin-top: 10px;
 }
 input[type="submit"]:hover {
-  background-color: tan;
+  background-color: #d2b48c;
 }
 /* END of contact section */
 
@@ -365,9 +353,11 @@ input[type="submit"]:hover {
   
 }
 .fter-logo {
+  
   height: 100%;
   width: 130px;
   border-radius: 2px;
+  
 }
 
 .fa-arrow-up {
