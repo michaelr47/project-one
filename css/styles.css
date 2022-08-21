@@ -280,46 +280,43 @@ figcaption p {
 #contact {
   height: 100%;
   width: 100%;
-  padding: 10px;
+  padding: 20px;
 }
 
 .contact-header  {
   float: left;
-  /* width: 50%; */
-  width: 40%;
+  width: 35%;
+  padding: 12% 0;
 }
 
-.contact-header > h2 {
-  padding: 20% 25%;
-  font-size: 30px;
-}
+.contact-header > h2 { font-size: 30px; }
 
 .form-container {
   background-color: #d3d3d3;
   border-radius: 5px;
-  padding: 50px;
+  padding: 55px;
   text-align: center;
-  width: 50%;
-  height: 400px;
-  float: left;
-  margin-right: 70px; 
+  width: 65%;
+  height: 450px;
+  float: right;
+  
 }
 
 input[type="text"], input[type="email"] {
   font-family: Quicksand, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   border-radius: 5px;
   border: none;
   margin: 15px 0 25px 0;
   width: 45%;
-  height: 35px;
+  height: 40px;
 
 }
 textarea {
   font-family: Quicksand, sans-serif;
-  font-size: 15px;
-  height: 200px;
-  width: 90.5%;
+  font-size: 20px;
+  height: 230px;
+  width: 91%;
   border-radius: 5px;
   border: none;
   
@@ -327,14 +324,14 @@ textarea {
 
 input[type="submit"] {
   font-family: Quicksand, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   border: 1px solid black;
-  width: 110px;
+  width: 120px;
   height: 40px;
   background-color: #e8c393;
   border-radius: 5px;
   padding: 5px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 input[type="submit"]:hover {
   background-color: #d2b48c;
@@ -350,18 +347,16 @@ input[type="submit"]:hover {
   background-color: #edcdaa;
   height: 80px;
   text-align: center;
-  
+  clear: both;
 }
 .fter-logo {
-  
   height: 100%;
   width: 130px;
   border-radius: 2px;
-  
 }
 
 .fa-arrow-up {
   float: right;
-  padding: 12px;
+  padding: 20px 10px 0 0;
   color: black;
 }
